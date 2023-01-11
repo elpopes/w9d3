@@ -17,7 +17,6 @@ let tweetComposeSelector = "";
 let followersSelector = "";
 
 document.querySelectorAll(followToggleSelector).forEach((el) => {
-  console.log(el);
   new FollowToggle(el);
 });
 
